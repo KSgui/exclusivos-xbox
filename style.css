@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    background-color: black;
+    justify-content: space-evenly;
+    width: 80%;
+    margin-left: 16%;
+}
+
+header{
+    background-color: black;
+    position: sticky;
+    top: 0;
+}
+
+nav{
+    height: 80px;
+    background-color: green;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 50px;
+}
+
+#logo{
+    height: 80px;
+    background-size: cover;
+}
+
+.titulo1{
+    color: white;
+    width: 80%;
+    margin-top: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.jogo{
+    margin-top: 20px;
+    width: 80%;
+}
+
+.game1{
+    height: 450px;
+    background-image: url(https://thenerdz.com.br/wp-content/uploads/2023/02/1168382.jpg);
+    background-size: cover;
+    background-position: 60% 50%;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    align-items: flex-end;
+    display: flex;
+    padding: 20px 20px;
+}
+
+.escrita{
+    background-color: green;
+    width: 210px;
+    height: 50px;
+    padding: 0 0 0 25px;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    border-radius: 50px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    background-image: url(https://www.quelmastermarketing.fr/wp-content/uploads/2020/10/youtube-logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 98% 50%;
+}
+
+p{
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.game1-5{
+    height: 450px;
+    background-image: url(https://ovicio.com.br/wp-content/uploads/2022/06/20220612-ovicio-starfield-game.jpg);
+    background-size: cover;
+    background-position: 60% 50%;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    align-items: flex-end;
+    display: flex;
+    padding: 20px 20px;
+}
+
+.escrita1-5{
+    background-color: green;
+    width: 150px;
+    height: 50px;
+    padding: 0 0 0 35px;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    border-radius: 50px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    background-image: url(https://www.quelmastermarketing.fr/wp-content/uploads/2020/10/youtube-logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 90% 50%;
+}
+
+.game2{
+    height: 450px;
+    background-image: url(https://s2-techtudo.glbimg.com/NgQ8wAqOIwp1i8c93q-Q8uqP0ZA=/1200x/smart/filters:cover:strip_icc/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2020/E/X/7brP30R3CuQ1T8uDB6vw/5118ebed-e949-42e3-80de-37502cec73a4.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    align-items: flex-end;
+    display: flex;
+    padding: 20px 20px;
+}
+
+.escrita2{
+    background-color: green;
+    width: 180px;
+    height: 50px;
+    padding: 0 0 0 35px;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    border-radius: 50px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    background-image: url(https://www.quelmastermarketing.fr/wp-content/uploads/2020/10/youtube-logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 90% 50%;
+}
+
+.game3{
+    height: 450px;
+    background-image: url(https://i.ytimg.com/vi/HSTA_MKEGp0/maxresdefault.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    align-items: flex-end;
+    display: flex;
+    padding: 20px 20px;
+}
+
+.game4{
+    height: 450px;
+    background-image: url(https://www.torredevigilancia.com/wp-content/uploads/2017/06/Sea-of-Thieves-Wallpaper-1200x666.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    align-items: flex-end;
+    display: flex;
+    padding: 20px 20px;
+}
+
+.game5{
+    height: 450px;
+    background-image: url(https://flowgames.gg/wp-content/uploads/2023/06/gears-5-1044x587.jpeg);
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    align-items: flex-end;
+    display: flex;
+    padding: 20px 20px;
+}
+
+.escrita5{
+    background-color: green;
+    width: 150px;
+    height: 50px;
+    padding: 0 0 0 35px;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    border-radius: 50px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    background-image: url(https://www.quelmastermarketing.fr/wp-content/uploads/2020/10/youtube-logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 90% 50%;
+}
+
+footer{
+    margin-top: 30px;
+    height: 250px;
+    background-color: green;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 3px;
+    justify-content: space-evenly;
+}
+
+span{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color: white;
+}
+
+@media(max-width: 768px){
+    .game1{
+        width: 300px;
+        height: 300px
+    }
+
+    .game1-5{
+        width: 300px;
+        height: 300px;
+    }
+
+    .game2{
+        width: 300px;
+        height: 300px
+    }
+    .game3{
+        width: 300px;
+        height: 300px
+    }
+    .game4{
+        width: 300px;
+        height: 300px
+    }
+    .game5{
+        width: 300px;
+        height: 300px;
+    }
+
+    p{
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+}
